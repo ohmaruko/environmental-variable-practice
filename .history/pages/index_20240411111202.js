@@ -3,7 +3,7 @@ import styles from "@/styles/Home.module.css";
 
 
 export default function Home() {
-  const name = process.env.NEXT_PUBLIC_NAME;
+  const name = process.env.PUBLIC_
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        {name}
+        
       </main>
     </>
   );
